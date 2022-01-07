@@ -11,6 +11,16 @@ function App() {
         <main>
           <Dictionary />
         </main>
+        <footer>
+          <a
+            href="https://github.com/vwt604/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Project
+          </a>{" "}
+          📖 by Vanessa 🐱
+        </footer>
       </div>
     </div>
   );
