@@ -6,12 +6,13 @@ export default function Dictionary() {
 
   function search(e) {
     e.preventDefault();
-    alert(`Searching for...${keyword}`);
+    console.log(`Searching for...${keyword}`);
   }
 
   function handleKeywordChange(e) {
-    setKeyword(e.target[0].value);
+    setKeyword(e.target.value);
   }
+
   return (
     <div className="dictionary">
       <form onSubmit={search}>
