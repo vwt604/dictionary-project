@@ -6,10 +6,10 @@ function App() {
     <div className="App">
       <div className="container">
         <header>
-          <h1 className="text-center">Dictionary</h1>
+          <h1 className="text-center display-4">Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="programming" />
+          <Dictionary defaultKeyword="welcome" />
         </main>
         <footer>
           <a
@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            📖 Project
+            📚 Project
           </a>{" "}
           by Vanessa 🐱
         </footer>
