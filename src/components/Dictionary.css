@@ -8,18 +8,25 @@
 
 .Dictionary input {
   width: 100%;
-  padding: 10px;
+  padding: 0 10px;
   border-radius: 6px;
   color: #333;
-  border: 1px solid #ddd;
+  font-size: 0.9em;
 }
 
-.Dictionary button {
+.form-control:focus {
+  box-shadow: none;
+  border-color: gray;
+}
+
+.Dictionary .btn-outline-purple {
   color: purple;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
 }
 
-.Dictionary h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.Dictionary button:hover {
+  background: purple;
+  color: white;
+  border: 1px solid purple;
 }

@@ -53,11 +53,23 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <form onSubmit={handleSubmit}>
-            <input
-              type="search"
-              onChange={handleKeywordChange}
-              placeholder="What word do you want to look up?"
-            />
+            <div className="input-group">
+              <input
+                type="search"
+                className="form-control"
+                onChange={handleKeywordChange}
+                placeholder="What word do you want to look up?"
+              />
+              <div class="input-group-append">
+                <button
+                  className="btn btn-outline-purple"
+                  type="button"
+                  id="button-addon2"
+                >
+                  <i class="fas fa-search" />
+                </button>
+              </div>
+            </div>
           </form>
         </section>
         <Results results={results} />
