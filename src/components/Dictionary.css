@@ -11,6 +11,7 @@
   padding: 0 10px;
   border-radius: 6px;
   color: #333;
+  opacity: var(--lighter);
   font-size: 0.9em;
 }
 
@@ -20,13 +21,13 @@
 }
 
 .Dictionary .btn-outline-purple {
-  color: purple;
+  color: var(--primary-color);
   border: 1px solid #ced4da;
   border-radius: 6px;
 }
 
 .Dictionary button:hover {
-  background: purple;
+  background: var(--primary-color);
   color: white;
-  border: 1px solid purple;
+  border: 1px solid var(--primary-color);
 }

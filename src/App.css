@@ -1,6 +1,12 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --lighter: 0.6;
+}
+
 body {
   margin: 20px 0;
-  background-color: #f7f3ff;
+  background-color: var(--secondary-color);
 }
 
 .App {
@@ -16,11 +22,11 @@ body {
 
 .App footer {
   margin-top: 30px;
-  font-size: 0.75em;
+  font-size: 0.9em;
   text-align: center;
 }
 
 .App footer a {
   text-decoration: none;
-  color: #885df1;
+  color: var(--primary-color);
 }

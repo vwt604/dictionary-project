@@ -4,12 +4,9 @@ import Phonetic from "./Phonetic";
 import "./Results.css";
 
 export default function Results(props) {
-  // console.log("Results props.results", props.results);
-
   if (props.results) {
     let meanings = props.results.meanings;
     let phonetics = props.results.phonetics;
-    console.log(props.results);
     return (
       <div className="Results">
         <section>
