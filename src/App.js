@@ -9,7 +9,7 @@ function App() {
           <h1 className="text-center">Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="programming" />
         </main>
         <footer>
           <a
@@ -17,9 +17,9 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Project
+            📖 Project
           </a>{" "}
-          📖 by Vanessa 🐱
+          by Vanessa 🐱
         </footer>
       </div>
     </div>
